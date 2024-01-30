@@ -6,7 +6,7 @@ export default function Navbar({ onComponentChange }) {
   return (
     <ul className="topnav">
       <li>
-        <img src ="./logo.svg" />
+        <a id="logo">Logo</a>
       </li>
       <li>
         <a href="#home" onClick={() => onComponentChange && onComponentChange('home')}>

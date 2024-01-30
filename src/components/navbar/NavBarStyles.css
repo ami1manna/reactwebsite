@@ -1,4 +1,4 @@
-
+/* Existing styles for the navbar */
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -9,15 +9,21 @@ ul.topnav {
   overflow: hidden;
   background-color: #333;
   border-radius: 10px;
-  background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for background color change */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-ul.topnav li {float: left;
+ul.topnav li {
+  float: left;
 }
 
 ul.topnav li a {
@@ -28,15 +34,33 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color:  #9408c7;
-border-radius: 20px;}
-
-ul.topnav li a.active {background-color: #c22ff7;border-radius: 20px;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #9408c7;
+  border-radius: 20px;
 }
 
+ul.topnav li a.active {
+  background-color: #c22ff7;
+  border-radius: 20px;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+      float: none;
+  }
+  ul.topnav {
+    height: 3em;
+  }
+  ul.topnav:hover {
+    height: 15em;
+  }
+}
+
+#logo {
+  font-size: 20px;
+}
