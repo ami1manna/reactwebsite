@@ -1,8 +1,7 @@
-body{
-    /* background-image:url("assets/landingpage.jpg") ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-    background-color: blueviolet;
+body {
+    margin: 0;
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover; /* Ensure the background covers the entire body */
+    background-repeat: no-repeat; /* Prevent background repetition */
 }

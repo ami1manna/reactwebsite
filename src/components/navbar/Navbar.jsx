@@ -6,22 +6,25 @@ export default function Navbar({ onComponentChange }) {
   return (
     <ul className="topnav">
       <li>
-        <a href="javascript:void(0)" onClick={() => onComponentChange('home')}>
+        <img src ="./logo.svg" />
+      </li>
+      <li>
+        <a href="#home" onClick={() => onComponentChange && onComponentChange('home')}>
           Home
         </a>
       </li>
       <li>
-        <a href="javascript:void(0)" onClick={() => onComponentChange('menu')}>
+        <a href="#menu" onClick={() => onComponentChange && onComponentChange('menu')}>
           Menu
         </a>
       </li>
       <li>
-        <a href="javascript:void(0)" onClick={() => onComponentChange('booktable')}>
+        <a href="#booktable" onClick={() => onComponentChange && onComponentChange('booktable')}>
           BookTable
         </a>
       </li>
       <li>
-        <a className='right' href="javascript:void(0)" onClick={() => onComponentChange('aboutus')}>
+        <a href="#aboutus" onClick={() => onComponentChange && onComponentChange('aboutus')}>
           AboutUs
         </a>
       </li>
