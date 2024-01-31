@@ -55,9 +55,9 @@
 .card-content .card-para {
   color: inherit;
   font-size: 17px;
-  background: linear-gradient(90deg, #0a0a0a, #000000);
+  /* background: linear-gradient(90deg, #0a0a0a, #000000); */
   -webkit-background-clip: text;
-  color: transparent;
+  color: white;
   display: inline-block;
   width: 70%;
   text-align: justify;
@@ -109,3 +109,4 @@
 .homecard{
   width: 100%;
 }
+

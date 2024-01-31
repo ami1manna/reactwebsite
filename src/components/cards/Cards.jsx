@@ -4,9 +4,9 @@ export default function Cards({image,title,description,dish}) {
   return (
     <div className="cardcontainer">
   <div className="box">
-    <span className="cardtitle"><img class="cardicon" src={image} /></span>
+    <span ><img class="cardicon" src={image} /></span>
     <div>
-      <strong>{title}</strong>
+      <strong className="cardtitle">{title}</strong>
       <p>{description}</p>
       <span>{dish}</span> <span>more+</span>
     </div>
