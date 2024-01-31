@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: antiquewhite;
+}
+#itemsrow{
+width:100%;
+display: inline-block;
+
+}
+#dish{
+    width: 70%;
+}
+#price{
+    margin-left: 20px;
+    width:20%;
+}
+
+.menucard h3{
+    width: 100%;
+
+ 
+}

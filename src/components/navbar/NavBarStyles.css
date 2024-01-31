@@ -54,7 +54,8 @@ ul.topnav li.right {
       float: none;
   }
   ul.topnav {
-    height: 3em;
+    height: 4em;
+    margin-bottom: 20px;
   }
   ul.topnav:hover {
     height: 15em;

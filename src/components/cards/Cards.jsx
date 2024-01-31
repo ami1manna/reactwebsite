@@ -1,14 +1,14 @@
 import React from 'react';
 import './Cards.css'
-export default function Cards() {
+export default function Cards({image,title,description,dish}) {
   return (
-    <div className="container">
+    <div className="cardcontainer">
   <div className="box">
-    <span className="title">GLASS EFFECT</span>
+    <span className="cardtitle"><img class="cardicon" src={image} /></span>
     <div>
-      <strong>JOE WATSON SBF</strong>
-      <p>0000 000 000 0000</p>
-      <span>VALID</span> <span>01/28</span>
+      <strong>{title}</strong>
+      <p>{description}</p>
+      <span>{dish}</span> <span>more+</span>
     </div>
   </div>
 </div>

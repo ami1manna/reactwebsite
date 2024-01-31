@@ -2,7 +2,6 @@
 
 .card {
   font-family: "Ubuntu Condensed", sans-serif;
-  width: 97%;
   height: 80%;
   position: relative;
   border-radius: 10px;
@@ -13,6 +12,8 @@
   perspective: 1000px;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
 
   background-color: rgba(255, 255, 255, 0.074);
   border: 1px solid rgba(255, 255, 255, 0.222);
@@ -26,6 +27,7 @@
 }
 
 .card-content {
+  
   padding: 20px;
   position: relative;
   z-index: 1;
@@ -102,4 +104,8 @@
   position: absolute;
   right: 0;
   top: 0; /* Adjust the top position as needed */
+}
+
+.homecard{
+  width: 100%;
 }
