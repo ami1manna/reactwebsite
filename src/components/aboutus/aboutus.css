@@ -29,18 +29,26 @@ body{
     
 
 .about-section{
-    /* background: url(https://t4.ftcdn.net/jpg/06/17/30/75/240_F_617307504_ECdU3aaUUY4e2qhA7rIcfUcQ1O5nndbD.jpg); */
-    background-size: 55%;
+ 
+  width: 100%;
     background-color:transparent;
     overflow: hidden;
     padding: 100px 0;
 }
 
+.aboutimg{
+  margin-left: 1%;
+  display: inline-block;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: -2px 2px 4px rgb(47, 46, 46);
+  }
 .inner-container{
-    width: 55%;
-    float: right;
+ margin-left: 3%;
+    width: 45%;
+  display: inline-block;
     background-color: transparent;
-    padding: 150px;
+   
 }
 
 .inner-container h1{
@@ -193,6 +201,7 @@ fieldset {
 
 
 
+
 @media screen and (max-width:1200px){
     .inner-container{
         padding: 80px;
@@ -215,5 +224,8 @@ fieldset {
     }
     .inner-container{
         padding: 60px;
+    }
+    .aboutimg{
+      width: 90%;margin: 5%;
     }
 }

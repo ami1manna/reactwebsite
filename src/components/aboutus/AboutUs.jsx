@@ -4,6 +4,7 @@ export default function Aboutus() {
   return (
     <>
     <div className="about-section">
+      <img className="aboutimg" src="https://toohotel.com/wp-content/uploads/2022/09/TOO_restaurant_Panoramique_vue_Paris_nuit_v2-scaled.jpg"/>
   <div className="inner-container">
 
     <h1>Since 1990</h1>
@@ -12,8 +13,8 @@ export default function Aboutus() {
     </p>
     <div className="logo">
          <span>Instagram</span>
-         <span>Photoshop & Illustrator</span>
-         <span>Coding</span>
+         <span>Xyz</span>
+         <span>Abc</span>
     </div>
   </div>
   </div>

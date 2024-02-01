@@ -17,6 +17,12 @@ export const HOMEPAGECARDS = [
     title:'Mexican',
     description:'some description .....',
     dish:100
-}
+},
+{   image:indian,
+    title:'aaaa',
+    description:'some description .....',
+    dish:100
+},
+
 
 ];

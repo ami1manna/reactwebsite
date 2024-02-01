@@ -3,35 +3,35 @@ import './bookTable.css'
 export default function BookTable() {
   return (
     <form className="form">
-    <p className="title">Register </p>
-    <p className="message">Signup now and get full access to our app. </p>
+    <p className="title">Book Table </p>
+    <p className="message">Book now get 20% off </p>
         <div className="flex">
         <label>
-            <input required="" placeholder="" type="text" className="input"/>
+            <input required="" placeholder="First Name" type="text" className="input"/>
             
         </label>
 
         <label>
-            <input required="" placeholder="" type="text" className="input"/>
+            <input required="" placeholder="Last Name" type="text" className="input"/>
            
         </label>
     </div>  
             
     <label>
-        <input required="" placeholder="" type="email" className="input"/>
+        <input required="" placeholder="Mobile" type="number" maxLength={10} className="input"/>
         
     </label> 
         
     <label>
-        <input required="" placeholder="" type="password" className="input"/>
+        <input required="" placeholder="Enter Date" type="date" className="input"/>
        
     </label>
     <label>
-        <input required="" placeholder="" type="password" className="input"/>
+        <input required="" placeholder="Number of seats" type="number" className="input"/>
         
     </label>
-    <button className="submit">Submit</button>
-    <p className="signin">Already have an acount ? <a href="#">Signin</a> </p>
-</form>
+    <button className="submit">Book</button>
+  
+    </form>
   )
 }
